@@ -2,12 +2,17 @@
 A Collection of BrainF Programs.
 
 # Running a Program
-`yabi [filename] && echo`
+`./bfc/bfc [programName]`
 
-Example: `yabi helloWorld.bf && echo`
+Example: `./bfc/bfc helloWorld.bf`
 ```
-
-[yabi] Parsing...
-[yabi] Parsed. Executing...
+[bfc] BFC - A BrainF Compiler
+[bfc] Loading ../helloWorld.bf
+[bfc] Parsing.   . 99%
+[bfc] Done parsing.
+[bfc] Compiling...
+[bfc] Done Compiling.
+[bfc] Executing.
 Hello World!
+[bfc] Execution complete.
 ```
