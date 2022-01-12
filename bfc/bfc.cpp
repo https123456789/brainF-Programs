@@ -92,6 +92,6 @@ int main(int argc, char *argv[]) {
 	std::cout << "[bfc] Executing..." << std::endl;
 	res = std::system("./executable");
 	std::cout << std::endl << "[bfc] Execution complete." << std::endl;
-	//res = std::system("rm executable executable.cpp");
+	res = std::system("rm executable executable.cpp");
 	return 0;
 }
